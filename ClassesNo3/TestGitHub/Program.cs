@@ -6,7 +6,7 @@ namespace TestGitHub
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Priwiet World!");
+            Console.WriteLine("welocome to the world of real programming!");
         }
     }
 }
