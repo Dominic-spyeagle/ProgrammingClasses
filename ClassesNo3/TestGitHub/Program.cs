@@ -8,6 +8,7 @@ namespace TestGitHub
         {
             Console.WriteLine("welcome Dom!");
             Console.WriteLine("how are you?");
+            Console.WriteLine("welocome to the world of real programming!");
         }
     }
 }
