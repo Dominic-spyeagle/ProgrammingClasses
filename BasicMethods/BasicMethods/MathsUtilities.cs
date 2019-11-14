@@ -22,19 +22,19 @@ namespace BasicMethods
             //return a;
             //return b;
         }
-            public static int GCD(int a, int b)
+        public static int GCD(int a, int b)
+        {
+            while (a != b)
             {
-                while (a != b)
-                {
-                    if (a > b)
-                        a = a - b;
-                    else b -= a;
-                }
-                return a;
+                if (a > b)
+                    a = a - b;
+                else b -= a;
             }
+            return a;
+        }
         public static bool IsPrime(int a)
-
-        {  if (a < 2)
+        {  
+            if (a < 2)
                 return false;
             for (int i=2; i <a ; i++)
             {
@@ -42,9 +42,14 @@ namespace BasicMethods
                     return false;
             }
             return true;
-
-
         }
+
+        public static bool AreCoprime(int a, int b) 
+        {
+            return  GCD(a,b)==1;
+            //int gcd =GCD()
+
         }
     }
+}
 
