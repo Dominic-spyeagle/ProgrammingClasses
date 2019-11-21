@@ -9,6 +9,12 @@ namespace ArraysClasses
             //FirstExample();
             //SecondExamples();
             //ThirdExamples();
+            double[] WeekTemperatures = { 1, 2.2, 3, 4.8, 5.9, 6, 7 };
+            double[] rotate = new double[7];
+            for (int i=0; i< WeekTemperatures.Length;i++)
+            {
+                rotate[i]=WeekTemperatures[]//homework
+            }
 
         }
 
