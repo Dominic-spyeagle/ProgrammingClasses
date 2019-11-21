@@ -6,7 +6,10 @@ namespace ArraysClasses
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int[] MyArray = new int[3];
+            foreach(var MyElement in MyArray)
+            Console.WriteLine(MyElement);
+            
         }
     }
 }
