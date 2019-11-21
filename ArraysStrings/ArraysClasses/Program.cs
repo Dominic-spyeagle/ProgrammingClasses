@@ -7,8 +7,19 @@ namespace ArraysClasses
         static void Main(string[] args)
         {
             //FirstExample();
-            double[] WeekTempertures = {1,2.2,3,4.8,5.9,6,7};
+            //SecondExamples();
+            double[] WeekTemperatures = { 1, 2.2, 3, 4.8, 5.9, 6, 7 };
 
+        }
+
+        private static void SecondExamples()
+        {
+            double[] WeekTemperatures = { 1, 2.2, 3, 4.8, 5.9, 6, 7 };
+            double sum = 0;
+            foreach (var temperature in WeekTemperatures)
+                sum += temperature;
+            double averageTemperature = sum / WeekTemperatures.Length;
+            Console.WriteLine($"Average Temperture is{averageTemperature}");
         }
 
         private static void FirstExample()
