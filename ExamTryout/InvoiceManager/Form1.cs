@@ -40,6 +40,7 @@ namespace InvoiceManager
                     dates.Add(elements[0]);
                 }
             }
+            string.message =$"Total dates: {dates.District().count()}",total count;
             resultLabel.Text = $"Total dates {dates.Count}, total sum {totalsum}";
         }
     }
