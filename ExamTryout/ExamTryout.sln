@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceManager", "InvoiceMa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry", "Geometry\Geometry.csproj", "{7D614839-8B52-4E9B-BB00-8227DB4515A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{CD5F557A-BC5D-4498-B8F9-4D8FD34B8B76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{543F5AEA-2E00-4CE5-9F57-432A6232D35F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{7D614839-8B52-4E9B-BB00-8227DB4515A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D614839-8B52-4E9B-BB00-8227DB4515A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D614839-8B52-4E9B-BB00-8227DB4515A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD5F557A-BC5D-4498-B8F9-4D8FD34B8B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD5F557A-BC5D-4498-B8F9-4D8FD34B8B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD5F557A-BC5D-4498-B8F9-4D8FD34B8B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD5F557A-BC5D-4498-B8F9-4D8FD34B8B76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{543F5AEA-2E00-4CE5-9F57-432A6232D35F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{543F5AEA-2E00-4CE5-9F57-432A6232D35F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{543F5AEA-2E00-4CE5-9F57-432A6232D35F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{543F5AEA-2E00-4CE5-9F57-432A6232D35F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
